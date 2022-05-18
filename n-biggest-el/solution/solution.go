@@ -49,6 +49,7 @@ func removeDuplicates(intSlice []int) []int {
 		if _, value := keys[entry]; !value {
 			keys[entry] = true
 			list = append(list, entry)
+			
 		}
 	}
 	return list
